@@ -1,0 +1,49 @@
+.lightbox {
+  width: 100%;
+}
+
+.lightbox-container {
+  width: 500px;
+  margin: 20px auto 0;
+}
+
+.icon-close {
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.active-img-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  width: 500px;
+  margin: 20px auto 0;
+}
+
+.img-preview {
+  width: 400px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.lightbox-ctrl {
+  padding: 10px;
+  background-color: rgb(212, 208, 208);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.img-group {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin: 10px auto 0;
+}
+
+.img-icon {
+  width: 68%;
+  border-radius: 12px;
+  cursor: pointer;
+}
